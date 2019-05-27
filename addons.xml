@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="repository.evolve" name="Evolve Ecosystem" version="0.0.2" provider-name="smitchell6879">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Evolve Ecosystem">
+            <info compressed="false">https://raw.githubusercontent.com/EvolveEcosystem/repository.evolve/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/EvolveEcosystem/repository.evolve/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/EvolveEcosystem/repository.evolve/master/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Evolve Ecosytem</summary>
+            <description>Collection of addon provided by smitchell6879 as part of Evolve Ecosystem</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="screensaver.evolve.dvd"
+    name="DVD Screensaver"
+    version="1.0.0"
+    provider-name="smitchell6879">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="resources/__init__.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">DVD Screensaver</summary>
+    <description lang="en">A throwback screensaver to time when things were simpler!</description>
+    <website></website>
+    <email>evolveecosystem@gmail.com</email>
+    <assets>
+		<icon>icon.png</icon>
+		<screenshot>resources/screenshot-01.jpg</screenshot>
+		<screenshot>resources/screenshot-02.jpg</screenshot>
+		<screenshot>resources/screenshot-03.jpg</screenshot>
+    </assets>
+    <news></news>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.module.pymysql"
+       name="pymysql"
+       version="0.9.3"
+       provider-name="PyMySQL">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Simple MySql Connector for Python</summary>
+    <description lang="en_GB">Simple MySql Connector for Python. Package by smitchell6879</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <forum></forum>
+    <website>http://pymysql.readthedocs.io/</website>
+    <source>https://github.com/PyMySQL/PyMySQL</source>
+  </extension>
+</addon>
+</addons>
