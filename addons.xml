@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="repository.evolve" name="Evolve Ecosystem" version="0.0.2" provider-name="smitchell6879">
+    <addon id="repository.evolve" name="Evolve Ecosystem" version="0.0.3" provider-name="smitchell6879">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
