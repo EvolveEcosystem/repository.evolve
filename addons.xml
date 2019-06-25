@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="repository.evolve" name="Evolve Ecosystem" version="0.0.3" provider-name="smitchell6879">
+    <addon id="repository.evolve" name="Evolve Ecosystem" version="0.0.4" provider-name="smitchell6879">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -15,6 +15,35 @@
             <description>Collection of addon provided by smitchell6879 as part of Evolve Ecosystem</description>
             <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="screensaver.evolve.aerial"
+    name="Apple TV: Aerial Screensavers"
+    version="1.0.1"
+    provider-name="smitchell6879">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="__init__.py" />
+  <extension point="xbmc.python.script" library="resources/lib/__init__.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Apple TV: Aerial Screensavers</summary>
+    <description lang="en">Enjoy breathtaking Aerials of locations shot all over the world and from space. Get location information with just a tap and switch to a different Aerial with a swipe.</description>
+    <website></website>
+    <email>evolveecosystem@gmail.com</email>
+    <assets>
+		<icon>resources/icon.png</icon>
+		<screenshot>resources/screenshot-01.jpg</screenshot>
+		<screenshot>resources/screenshot-02.jpg</screenshot>
+    <screenshot>resources/screenshot-03.jpg</screenshot>
+    <screenshot>resources/screenshot-04.jpg</screenshot>
+		<screenshot>resources/screenshot-05.jpg</screenshot>
+    </assets>
+    <news></news>
+    <source></source>
+  </extension>
 </addon>
 
 <addon id="screensaver.evolve.dvd"
