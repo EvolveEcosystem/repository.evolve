@@ -93,4 +93,24 @@
     <source>https://github.com/PyMySQL/PyMySQL</source>
   </extension>
 </addon>
+
+<addon id="script.module.pysmb"
+       name="pysmb"
+       version="1.1.27"
+       provider-name="pysmb">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Simple smb/nmb Connector for Python</summary>
+    <description lang="en_GB">Simple smb/nmb Connector for Python. Package by smitchell6879</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <forum></forum>
+    <website>http://pysmb.readthedocs.io/</website>
+    <source>https://github.com/miketeo/pysmb</source>
+  </extension>
+</addon>
 </addons>
