@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="repository.evolve" name="Evolve Ecosystem" version="0.0.7" provider-name="smitchell6879">
+    <addon id="repository.evolve" name="Evolve Ecosystem" version="0.0.8" provider-name="smitchell6879">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -19,7 +19,7 @@
 
 <addon id="screensaver.evolve.aerial"
     name="Apple TV: Aerial Screensavers"
-    version="1.0.5"
+    version="1.0.6"
     provider-name="smitchell6879">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
