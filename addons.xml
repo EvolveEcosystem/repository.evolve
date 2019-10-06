@@ -26,7 +26,7 @@
     <import addon="script.module.urllib3" version="1.22"/>
   </requires>
   <extension point="xbmc.python.script" library="resources/lib/__init__.py" />
-		<provides>executable</provides>
+		<!-- <provides>executable</provides> -->
   <extension point="xbmc.ui.screensaver" library="__init__.py" />
   <extension point="xbmc.service" library="resources/lib/service.py" />
   <extension point="xbmc.addon.metadata">
