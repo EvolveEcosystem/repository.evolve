@@ -19,14 +19,15 @@
 
 <addon id="screensaver.evolve.aerial"
     name="Apple TV: Aerial Screensavers"
-    version="1.0.7"
+    version="1.0.8"
     provider-name="smitchell6879">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.urllib3" version="1.22"/>
   </requires>
-  <extension point="xbmc.ui.screensaver" library="__init__.py" />
   <extension point="xbmc.python.script" library="resources/lib/__init__.py" />
+		<provides>executable</provides>
+  <extension point="xbmc.ui.screensaver" library="__init__.py" />
   <extension point="xbmc.service" library="resources/lib/service.py" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
@@ -36,11 +37,6 @@
     <email>evolveecosystem@gmail.com</email>
     <assets>
 		<icon>resources/icon.png</icon>
-		<!-- <screenshot>resources/screenshot-01.jpg</screenshot>
-		<screenshot>resources/screenshot-02.jpg</screenshot>
-    <screenshot>resources/screenshot-03.jpg</screenshot>
-    <screenshot>resources/screenshot-04.jpg</screenshot>
-		<screenshot>resources/screenshot-05.jpg</screenshot> -->
     </assets>
     <news></news>
     <source></source>
