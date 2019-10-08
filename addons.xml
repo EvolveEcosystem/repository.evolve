@@ -19,7 +19,7 @@
 
 <addon id="screensaver.evolve.aerial"
     name="Apple TV: Aerial Screensavers"
-    version="1.0.8"
+    version="1.0.9"
     provider-name="smitchell6879">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
