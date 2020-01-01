@@ -17,6 +17,55 @@
     </extension>
 </addon>
 
+<addon id="screensaver.evolve.aerial"
+    name="Apple TV: Aerial Screensavers"
+    version="1.0.13"
+    provider-name="smitchell6879">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="__init__.py" />
+  <extension point="xbmc.python.script" library="resources/lib/__init__.py" />
+		<!-- <provides>executable</provides> -->
+  <extension point="xbmc.service" library="resources/lib/service.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Apple TV: Aerial Screensavers</summary>
+    <description lang="en">Enjoy breathtaking Aerials of locations shot all over the world and from space. Get location information with just a tap and switch to a different Aerial with a swipe.</description>
+    <website></website>
+    <email>evolveecosystem@gmail.com</email>
+    <assets>
+		<icon>resources/icon.png</icon>
+    </assets>
+    <news></news>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="screensaver.evolve.apple"
+    name="Evolve: Apple Screensavers"
+    version="1.1.0"
+    provider-name="smitchell6879">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="main.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Apple TV Screensavers</summary>
+    <description lang="en">Enjoy breathtaking Aerials of locations shot all over the world and from space. Get location information with just a tap and switch to a different Aerial with a swipe.</description>
+    <website></website>
+    <email>evolveecosystem@gmail.com</email>
+    <assets>
+		<icon>resources/icon.jpg</icon>
+    </assets>
+    <news></news>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="screensaver.evolve.dvd"
     name="DVD Screensaver"
     version="1.0.1"
@@ -81,32 +130,6 @@
     <forum></forum>
     <website>http://pysmb.readthedocs.io/</website>
     <source>https://github.com/miketeo/pysmb</source>
-  </extension>
-</addon>
-
-<addon id="screensaver.evolve.aerial"
-    name="Apple TV: Aerial Screensavers"
-    version="1.0.13"
-    provider-name="smitchell6879">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.urllib3" version="1.22"/>
-  </requires>
-  <extension point="xbmc.ui.screensaver" library="__init__.py" />
-  <extension point="xbmc.python.script" library="resources/lib/__init__.py" />
-		<!-- <provides>executable</provides> -->
-  <extension point="xbmc.service" library="resources/lib/service.py" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Apple TV: Aerial Screensavers</summary>
-    <description lang="en">Enjoy breathtaking Aerials of locations shot all over the world and from space. Get location information with just a tap and switch to a different Aerial with a swipe.</description>
-    <website></website>
-    <email>evolveecosystem@gmail.com</email>
-    <assets>
-		<icon>resources/icon.png</icon>
-    </assets>
-    <news></news>
-    <source></source>
   </extension>
 </addon>
 </addons>
