@@ -45,7 +45,7 @@
 
 <addon id="screensaver.evolve.apple"
     name="Evolve: Apple Screensavers"
-    version="1.1.0"
+    version="1.1.1"
     provider-name="smitchell6879">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
